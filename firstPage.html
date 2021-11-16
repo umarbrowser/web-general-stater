@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css" />
+    <link rel="stylesheet" href="normalize.css" />
+  </head>
+  <body>
+    <div class="title">
+      <h2>Registration Section</h2>
+      <div class="title-underline"></div>
+    </div>
+    <br />
+
+    <form action="form" class="form">
+      <h4>Register</h4>
+
+      <div class="form-row">
+        <label for="name" class="form-label">Name</label>
+        <input
+          type="text"
+          placeholder="hello there"
+          id="name"
+          class="form-input"
+        />
+      </div>
+
+      <div class="form-row">
+        <label for="number" class="form-label">Number</label>
+        <input type="number" id="number" class="form-input" />
+      </div>
+
+      <div class="form-row">
+        <label for="email" class="form-label">Email</label>
+        <input type="email" id="email" class="form-input" />
+      </div>
+      <div class="form-row">
+        <label for="textarea">TextArea</label>
+        <textarea class="form-textarea">Default value</textarea>
+      </div>
+      <button type="submit" class="btn btn-block">Submit</button>
+    </form>
+  </body>
+</html>
